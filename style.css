@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+    background: #4b0f1a;
+}
+.top-header {
+    text-align: center;
+    padding: 30px 0;
+    color: rgb(253, 253, 253);
+
+}
+.navbar {
+    background: #f2c6a5;
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+}
+.brand-text {
+  text-align: center;   /* or left if needed */
+}
+
+.brand-text h1 {
+    color: #f3e8df;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+  margin-bottom: 6px;   /* 👈 space BELOW h1 */
+}
+
+.brand-text p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f3e8df;
+
+  margin-top: 0;        /* 👈 remove default gap */
+}
+
+
+
+
+
+
+
+
+
+    .logo {
+    font-weight: bold;
+
+}
+.nav-links a{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #740a0a;
+    font-size: 14px;
+}
+.login-btn {
+    margin-left: auto;   /* ⭐ KEY LINE */
+    border: 1px solid #740a0a;
+    background: transparent;
+    padding: 6px 14px;
+    cursor: pointer;
+}
+
+.content-box {
+  background-color: #b48a6b;   /* brown box */
+  padding: 40px 35px;
+  width: 360px;
+  border-radius: 6px;
+
+  /* position on left */
+  position: absolute;
+  left: 80px;
+  top: 200px;
+}
+
+/* BIG HEADING */
+.content-box h2  {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px;
+}
+
+/* PARAGRAPH */
+.content-box p {
+  font-size: 13px;
+  color: #f3e8df;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.content-box button {
+  background-color: #efe6dd;
+  color: #5a3a2a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.social-vertical {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  
+  background: #b48b6a;          /* light brown box */
+  padding: 14px 10px;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  z-index: 1000;
+}
+
+.social-vertical a {
+  width: 28px;
+  height: 28px;
+  background: #ffffff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #6b4a2e;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.social-vertical a:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAIN TEXT BLOCK */
+.fashion-text {
+    color: #ffffff;
+    max-width: 360px;
+}
+
+/* FIND YOUR STYLE */
+.fashion-text h2 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 22px;
+}
+
+/* PARAGRAPH */
+.fashion-text p {
+    font-size: 20px;
+    align-items: center;
+    line-height: 1.8;
+    color: #f2dada;
+    margin-bottom: 28px;
+     letter-spacing: 3px;
+  font-weight: 700;
+}
+
+
+/* SHOP NOW BUTTON */
+.fashion-text .shop-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #f2c4c4;
+    color: #5a0f1a;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+/* BUTTON HOVER (optional but nice) */
+.hero-text .shop-btn:hover {
+    background-color: #ffffff;
+}
+
+
+/* IMAGE CENTER */
+
+.fashion-image img {
+    width: 700px;
+    background: #5a0f1d;
+    display: flex;
+    align-items:<center> center;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+
+}
+
+
+   
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.social-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e40ff;       /* blue icons */
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+
